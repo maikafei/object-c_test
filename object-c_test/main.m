@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
         //方法调用
         [p setName:@"汤姆"];
         
-        //属性调用
+        //属性调用@@@
         p.age=28; //等价于：[p setAge:28];
         int age=p.age;//等价于：age=[p age];
         NSString *name =p.getName ;
