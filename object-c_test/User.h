@@ -15,7 +15,7 @@
      *注意在ObjC中不管是自定义的类还是系统类对象都必须是一个指针，例如下面的_name
      */
     @private
-        NSString *_name;//在ObjC中推荐成员变量名以_开头
+        NSString *_name;//在ObjC中推荐成员变量名以_开头@@@
         int _age;
     @protected
         NSString *_nation;

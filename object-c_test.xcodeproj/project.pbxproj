@@ -8,7 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E7320E2A1F7E3C60002624F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7320E291F7E3C60002624F1 /* main.m */; };
+		E7320E321F7F726C002624F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E7320E311F7F726C002624F1 /* User.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E7320E331F7F8C2C002624F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E7320E241F7E3C60002624F1 /* CopyFiles */ = {
@@ -25,6 +38,8 @@
 /* Begin PBXFileReference section */
 		E7320E261F7E3C60002624F1 /* object-c_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "object-c_test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7320E291F7E3C60002624F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7320E301F7F726C002624F1 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E7320E311F7F726C002624F1 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				E7320E291F7E3C60002624F1 /* main.m */,
+				E7320E301F7F726C002624F1 /* User.h */,
+				E7320E311F7F726C002624F1 /* User.m */,
 			);
 			path = "object-c_test";
 			sourceTree = "<group>";
@@ -74,6 +91,7 @@
 				E7320E241F7E3C60002624F1 /* CopyFiles */,
 			);
 			buildRules = (
+				E7320E331F7F8C2C002624F1 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -119,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7320E321F7F726C002624F1 /* User.m in Sources */,
 				E7320E2A1F7E3C60002624F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
